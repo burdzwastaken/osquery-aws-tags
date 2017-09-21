@@ -1,6 +1,8 @@
 # aws_tags_ext
 An osquery extension that allows for the retrieval of AWS tags attached to that node.
 
+*NOTE:* use the offical tables included into osquery [2.7.0](https://github.com/facebook/osquery/releases/tag/2.7.0)
+
 ## overview:
 This extension enables one table that extends osquery. The data from this table is retrieved using the boto library. This was built of the need to be able to create queries based on tags given to instances. Our environment was heavily automated through the use of tags so extending this to our monitoring tool was essential.
 
